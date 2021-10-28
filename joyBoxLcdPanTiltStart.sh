@@ -5,6 +5,7 @@
 # sudo journalctl -u joy_box_panel.service
 # sudo systemctl status joy_box_panel.service
 # sudo systemctl enable joy_box_panel.service
+# sudo systemctl start joy_box_panel.service
 
 # qt from source 23.10.2012
 export QT_SELECT="Qt-5.15.2"

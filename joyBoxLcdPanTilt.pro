@@ -25,5 +25,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     README.md \
-    etc_systemd_system/joy_box_panel.service \
+    dot_config/autostart/joy_box_panel.desktop \
     joyBoxLcdPanTiltStart.sh
