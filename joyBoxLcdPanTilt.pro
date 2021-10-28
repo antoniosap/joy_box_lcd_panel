@@ -24,4 +24,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    README.md
+    README.md \
+    etc_systemd_system/joy_box_panel.service \
+    joyBoxLcdPanTiltStart.sh

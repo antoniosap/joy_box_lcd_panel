@@ -1,0 +1,13 @@
+[Unit]
+Description=joy_box_panel service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/joy_box_lcd_panel
+User=pi
+Group=pi
+ExecStart=/home/pi/joy_box_lcd_panel/joyBoxLcdPanTilt
+# Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
