@@ -1,8 +1,11 @@
 [Unit]
 Description=joy_box_panel service
-After=network.target
+After=graphical.target
+After=network-online.target
+Wants=network-online.target
 
 [Service]
+Type=simple
 WorkingDirectory=/home/pi/joy_box_lcd_panel
 User=pi
 Group=pi
