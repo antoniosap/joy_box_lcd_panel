@@ -2,7 +2,6 @@
 Description=joy_box_panel service
 After=graphical.target
 After=network-online.target
-Wants=network-online.target
 
 [Service]
 Type=simple
@@ -13,4 +12,4 @@ ExecStart=/home/pi/joy_box_lcd_panel/joyBoxLcdPanTiltStart.sh
 # Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=graphical.target
