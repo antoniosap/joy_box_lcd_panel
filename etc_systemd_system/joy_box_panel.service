@@ -6,7 +6,7 @@ After=network.target
 WorkingDirectory=/home/pi/joy_box_lcd_panel
 User=pi
 Group=pi
-ExecStart=/home/pi/joy_box_lcd_panel/joyBoxLcdPanTilt
+ExecStart=/home/pi/joy_box_lcd_panel/joyBoxLcdPanTiltStart.sh
 # Restart=on-failure
 
 [Install]

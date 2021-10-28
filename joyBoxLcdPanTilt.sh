@@ -9,3 +9,4 @@
 # qt from source 23.10.2012
 export QT_SELECT="Qt-5.15.2"
 /home/pi/joy_box_lcd_panel/joyBoxLcdPanTilt
+
