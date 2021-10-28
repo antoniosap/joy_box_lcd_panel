@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/pi/joy_box_lcd_panel/joyBoxLcdPanTiltStart.sh
+
